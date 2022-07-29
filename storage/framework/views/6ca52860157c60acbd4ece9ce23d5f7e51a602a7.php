@@ -24,11 +24,12 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Inventory Asset PT Tunas Link Indonesia</title>
+    <title>Inventory Asset PT. Tunas Link Indonesia</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <script src="<?php echo e(mix('js/app.js')); ?>"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -41,3 +42,4 @@
     -->
   </body>
 </html>
+<?php /**PATH /home/ghost/Documents/proyekTinknetFullStack/resources/views/render.blade.php ENDPATH**/ ?>

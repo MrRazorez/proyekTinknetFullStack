@@ -34,6 +34,3 @@ Route::get("databarang/show/{id}", [crudController::class, "show"]);
 Route::post("databarang/update/{id}", [crudController::class, "update"]);
 Route::get("databarang/total", [crudController::class, "tampilTotal"]);
 Route::get("dataexport", [crudController::class, "exportToXLSX"]);
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});

@@ -1,0 +1,13 @@
+.side{
+    display: flex;
+}
+
+.side{
+ flex: 1;
+}
+
+.pages{
+    flex: 4;
+    margin-left: 204px;
+    margin-top: 100px;
+}

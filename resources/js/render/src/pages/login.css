@@ -1,0 +1,10 @@
+body {
+    background-color: #bebebe ;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Background{
+        margin-left: 8%;
+    }
+}
